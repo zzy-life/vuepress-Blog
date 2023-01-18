@@ -31,23 +31,23 @@
 
 ### 集成了
 
-**:gift_heart:**静态全站搜索插件 **:gift_heart:**MD图表支持插件 **:gift_heart:**音乐播放器插件 
+**:gift_heart:** 静态全站搜索插件 **:gift_heart:** MD图表支持插件 **:gift_heart:** 音乐播放器插件 
 
-**:gift_heart:**饿了么UI库**:gift_heart:**primevue组件库**:gift_heart:**霞鹜文楷字体
+**:gift_heart:** 饿了么UI库 **:gift_heart:** primevue组件库 **:gift_heart:** 霞鹜文楷字体
 
-**:gift_heart:**vue-lottie动画库
+**:gift_heart:** vue-lottie动画库
 
 ### 修复了
 
-**:gift_heart:**vuepress的中文URL路径错误问题 
+**:gift_heart:** vuepress的中文URL路径错误问题 
 
 **:gift_heart:** 中文URL锚点无法跳转问题 
 
 **:gift_heart:** 滑动页面左侧导航栏未进行跟随问题 
 
- **:gift_heart:**全文搜索插件移动端适配问题 
+**:gift_heart:** 全文搜索插件移动端适配问题 
 
- **:gift_heart:**音乐插件图片报错
+**:gift_heart:** 音乐插件图片报错
 
 本地音源没有自动注入vuepress的base基础路径
 
