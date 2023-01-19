@@ -760,10 +760,3 @@ if(Array.isArray(this.fieldValue)){//如果是数组，转成字符串型通过�
 点击[地址](https://gitee.com/liang1022/form-generator-parser/tree/master)跳转
 
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>

@@ -122,10 +122,3 @@ https://yourdomain.com   #需要将yourdomain.com替换成证书绑定的域名�
 | 收到网站提示“您与网站之间的连接未完全安全”。       | 您的网站代码中调用的是HTTP协议。                             | 您需要在网站代码中把HTTP协议修改为HTTPS协议。**说明** 不同网站代码的实现逻辑可能存在差异，请您根据具体情况进行修改。如果需要更多支持，请提交[工单](https://selfservice.console.aliyun.com/ticket/category/cas)。 |
 | 收到网站提示“该网站未根据工信部相关法律进行备案”。 | 您的网站未完成备案，未在接入商处完成备案接入。您的网站内容与备案信息不符、备案信息不准确、网站存在不适宜传播的内容等。 | 如果您使用的是阿里ICP云备案系统，请前往[阿里云备案系统](https://beian.aliyun.com/order/index)进行网站备案。如果您使用的不是阿里云ICP备案系统，请前往备案服务商的系统进行网站备案。 |
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/3/4 晚上22:17:09";
-    }
-  }
-</script>

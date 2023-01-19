@@ -273,10 +273,3 @@ http {
 
 > 工具箱 https://www.dute.org/nginx-config-formatter
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>

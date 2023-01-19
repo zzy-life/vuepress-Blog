@@ -279,10 +279,3 @@ export default {
 
 ```
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/20 下午10:59:09";
-    }
-  }
-</script>

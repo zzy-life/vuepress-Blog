@@ -168,10 +168,3 @@ docker基于Linux内核提供这样几项功能实现的：
 
 docker是目前非常流行的技术，很多公司都在生产环境中使用，但是docker依赖的底层技术实际上很早就已经出现了，现在以docker的形式重新焕发活力，并且能很好的解决面临的问题
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/24 凌晨0:09:09";
-    }
-  }
-</script>

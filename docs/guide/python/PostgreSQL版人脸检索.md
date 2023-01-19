@@ -909,10 +909,3 @@ export default {
 
 
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/27 晚上8:04:09";
-    }
-  }
-</script>

@@ -327,10 +327,3 @@ location /{
 
 
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/3/34 下午14:09:09";
-    }
-  }
-</script>

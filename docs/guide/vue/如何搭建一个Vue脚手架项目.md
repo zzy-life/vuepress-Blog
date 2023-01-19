@@ -270,10 +270,3 @@ npm run serve
 
 :::
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>

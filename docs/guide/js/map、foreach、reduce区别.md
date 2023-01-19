@@ -38,10 +38,3 @@ var fatWallets = wallets.filter(function (wallet) {
 
 最后要说明一点这个类比和实际代码的一个区别，那就是 map 和 filter 都是 immutable methods，也就是说它们只会返回一个新数组，而不会改变原来的那个数组，所以这里 filter 的例子是和代码有些出入的（原来的盒子里的钱包减少了），但为了形象说明，大家理解就好。
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>

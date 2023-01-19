@@ -189,10 +189,3 @@ public class MailCodeAuthenticationSecurityConfig
 	
 ```
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/16 下午3:34:14";
-    }
-  }
-</script>

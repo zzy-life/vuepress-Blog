@@ -553,10 +553,3 @@ CMD ["postgres"]
 docker build -t postgresql-large-cube:9.6 .
 ```
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/24 凌晨0:09:09";
-    }
-  }
-</script>

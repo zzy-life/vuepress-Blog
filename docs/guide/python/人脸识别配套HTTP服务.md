@@ -392,11 +392,5 @@ demo 镜像名
 | 返回值 | code:200正常500失败 face_encodings:人脸识别码 | face_found_in_image：上传图片有没有人脸 is_picture_of_obama：是否匹配  username：数据库用户名 |
 | 参数   | file:文件 username:姓名 phone:手机 mail:邮箱  | mail:邮箱 file:文件                                          |
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/20 下午10:59:09";
-    }
-  }
-</script>
+
 

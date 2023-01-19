@@ -186,10 +186,3 @@ ps -ef | grep postgres
 sudo service postgresql restart
 ```
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/24 凌晨0:09:09";
-    }
-  }
-</script>

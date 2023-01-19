@@ -60,10 +60,3 @@ sanjusss/aliyun-ddns
 > [不是阿里云购买的域名请点击](https://help.aliyun.com/knowledge_detail/39793.html)
 
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>

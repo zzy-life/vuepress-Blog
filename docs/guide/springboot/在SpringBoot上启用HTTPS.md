@@ -73,10 +73,4 @@
 8. 执行`mvn spring-boot:run`命令重启Spring Boot服务。
 
    
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>
+

@@ -49,10 +49,3 @@
 
 ![在这里插入图片描述](image/20191011155949742.png)
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>

@@ -152,10 +152,3 @@ svn co svn://ip/代码路径 /www/wwwroot/dist（拉取到哪的路径）
 
 
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/5/12 凌晨1:09:09";
-    }
-  }
-</script>

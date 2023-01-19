@@ -137,10 +137,3 @@ npm config set registry  https://registry.npm.taobao.org/
 
 - README.md 仓库文档信息
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>

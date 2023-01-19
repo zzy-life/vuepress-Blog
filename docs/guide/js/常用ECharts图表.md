@@ -68,11 +68,4 @@ function method(init的char,option参数,查询条件1,查询条件2,查询条�
 	});
 }
 ```
-
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>       
+    

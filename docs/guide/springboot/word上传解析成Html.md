@@ -400,10 +400,3 @@ createStyles方法
 
 > 核心就是将样式**HorizontalAlignment**修改为相应版本的**CellStyle.ALIGN_CENTER**
 
-<script>
-export default {
-    mounted () {
-      this.$page.lastUpdated = "2022/1/14 下午6:09:09";
-    }
-  }
-</script>
