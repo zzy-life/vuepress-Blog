@@ -1,6 +1,4 @@
----
-secret: true
----
+ 
 # word上传解析成html
 
 > 项目依赖若依vue分离版

@@ -58,20 +58,32 @@ module.exports = {
     sidebar: require("./sidebar.js"),
     sidebarDepth: 2,
     lastUpdated: '上次更新',
-    searchMaxSuggestoins: 10,
     serviceWorker: {
       updatePopup: {
         message: "有新的内容.",
         buttonText: '更新'
       }
     },
+    // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
+    repo: 'https://github.com/zzy-life/vuepress-Blog',
+    // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
+    // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
+    repoLabel: '文档源码',
+    // 以下为可选的编辑链接选项
+    // 假如文档不是放在仓库的根目录下：
+    docsDir: 'docs',
+    // 默认是 false, 设置为 true 来启用
+    editLinks: true,
+    // 默认为 "Edit this page"
+    editLinkText: '帮助我改善此页面！',
+    //页面滚动效果
     smoothScroll: true
   },
 
   plugins: [
     new EncodingPlugin({
       encoding: 'UTF-8'
-    }), 
+    }),
     'fulltext-search', '@vuepress/back-to-top', '@vuepress/last-updated', 'vuepress-plugin-mermaidjs',
     ['meting',
       {
@@ -149,7 +161,7 @@ module.exports = {
           ]
         },
 
-    }
+      }
     ]
   ],
 }

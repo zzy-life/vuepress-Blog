@@ -5,7 +5,7 @@ actionText: 开始
 heroText: zzy-Blog
 tagline: null
 actionLink: /guide/
-footer: GPL Licensed | Copyright © 2021-present You
+footer: GPL Licensed | Copyright © 2021-present You 
 lang: zh-CN
 comment: true
 kinesis: true
