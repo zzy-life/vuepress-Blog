@@ -1,4 +1,5 @@
 const EncodingPlugin = require('webpack-encoding-plugin');
+const webpack = require('webpack');
 module.exports = {
   title: '博客', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: '张志宇的个人博客网站', // meta 中的描述文字，用于SEO
@@ -31,33 +32,36 @@ module.exports = {
         ]
       })),
       //https://github.com/tcoopman/image-webpack-loader
-    config.module
-      .rule('images')
-      .test(/\.(gif|png|jpe?g|svg||webp)$/i)
-      .use('file-loader')
-      .loader('image-webpack-loader')
-      .options({
-        mozjpeg: {
-          progressive: true,
-        },
-        // optipng.enabled: false will disable optipng
-        optipng: {
-          enabled: false,
-        },
-        pngquant: {
-          quality: [0.65, 0.90],
-          speed: 4
-        },
-        gifsicle: {
-          interlaced: false,
-        },
-        // the webp option will enable WEBP
-        webp: {
-          quality: 75
-        }
-      })
+      config.module
+        .rule('images')
+        .test(/\.(gif|png|jpe?g||webp)$/i)
+        .use('file-loader')
+        .loader('image-webpack-loader')
+        .options({
+          disable: true,
+          mozjpeg: {
+            progressive: true,
+            disable: true,
+          },
+          // optipng.enabled: false will disable optipng
+          optipng: {
+            enabled: false,
+          },
+          pngquant: {
+            quality: [0.65, 0.90],
+            speed: 4,
+            disable: true,
+          },
+          gifsicle: {
+            interlaced: false,
+          },
+          // the webp option will enable WEBP
+          webp: {
+            quality: 75
+          }
+        })
   },
- 
+
   serviceWorker: true,
   locales: {
     // 键名是该语言所属的子路径
@@ -110,6 +114,8 @@ module.exports = {
   plugins: [
     new EncodingPlugin({
       encoding: 'UTF-8'
+    }), new webpack.LoaderOptionsPlugin({
+      debug: true
     }),
     'fulltext-search', '@vuepress/back-to-top', '@vuepress/last-updated', 'vuepress-plugin-mermaidjs',
     ['meting',
