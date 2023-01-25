@@ -28,7 +28,7 @@
 
 **:gift_heart:** **Markdown**既可以在本地预览编辑，并且vuepress可以直接进行网页编译渲染，不需要操作代码，专注于写作
 
-**:gift_heart:** 增加image-webpack-loader插件让build时能压缩图片，原来dict55MB，压缩后33MB
+**:gift_heart:** 增加image-webpack-loader插件让build时能压缩图片，原来dist55MB，压缩后33MB
 
 **:gift_heart:** 非常好的自适应网页（包括PC，移动端，平板）
 
