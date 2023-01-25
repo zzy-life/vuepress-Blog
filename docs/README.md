@@ -193,9 +193,9 @@ export default {
     this.$notify({
       title: "微信公众号",
       dangerouslyUseHTMLString: true,
-      message: "<strong><i>时不待我</i> </strong>",
-      duration: 9000,
-      offset: 40,
+      message: "<strong>  <img  src='/img/logo.jpg'/> </strong>",
+      duration: 10000,
+      offset: 50,
     });
    
   },
