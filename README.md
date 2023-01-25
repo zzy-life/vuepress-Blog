@@ -28,7 +28,11 @@
 
 **:gift_heart:** **Markdown**既可以在本地预览编辑，并且vuepress可以直接进行网页编译渲染，不需要操作代码，专注于写作
 
+**:gift_heart:** 增加image-webpack-loader插件让build时能压缩图片，原来dict55MB，压缩后33MB
+
 **:gift_heart:** 非常好的自适应网页（包括PC，移动端，平板）
+
+
 
 总而言之，vuepress最大的优点则是**不需要维护代码**，在本地写Markdown编译就是一个网页
 
@@ -90,7 +94,7 @@ npm run build
 
 [element-ui](https://element.eleme.cn/#/zh-CN/component/installation) UI组件库
 
-
+[image-webpack-loader](https://github.com/tcoopman/image-webpack-loader) webpack打包图像压缩插件
 
 ## 使用相关文档请参见
 
