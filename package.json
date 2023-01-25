@@ -15,6 +15,7 @@
         "@vuepress/plugin-active-header-links": "^1.8.2",
         "@vuepress/plugin-back-to-top": "^1.8.2",
         "babel-plugin-component": "^1.1.1",
+        "image-webpack-loader": "^8.1.0",
         "sass": "^1.47.0",
         "vuepress": "^1.8.2",
         "vuepress-plugin-mermaidjs": "^1.9.1",
