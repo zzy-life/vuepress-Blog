@@ -96,6 +96,10 @@ npm run build
 
 [image-webpack-loader](https://github.com/tcoopman/image-webpack-loader) webpack打包图像压缩插件
 
+[webmasterish](https://github.com/webmasterish)/[vuepress-plugin-autometa](https://github.com/webmasterish/vuepress-plugin-autometa) meta优化插件
+
+[vuepress-plugin-sitemap](https://github.com/ekoeryanto/vuepress-plugin-sitemap)  站点地图生成器插件
+
 ## 使用相关文档请参见
 
  https://vuepress.vuejs.org/.
