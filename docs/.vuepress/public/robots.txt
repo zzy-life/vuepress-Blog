@@ -1,0 +1,3 @@
+Sitemap: https://zhangzhiyu.live:8900/vuepress/sitemap.xml
+
+User-agent: *

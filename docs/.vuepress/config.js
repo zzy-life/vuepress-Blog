@@ -2,7 +2,7 @@ const EncodingPlugin = require('webpack-encoding-plugin');
 const webpack = require('webpack');
 module.exports = {
   title: '博客', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
-  description: '张志宇的个人博客网站', // meta 中的描述文字，用于SEO
+  description: '张志宇(zhangzhiyu)的博客网站', // meta 中的描述文字，用于SEO
   dest: './dist',
   base: '/vuepress/',
   port: '7777',
@@ -69,7 +69,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
       title: '博客',
-      description: '张志宇的个人博客网站'
+      description: '张志宇(zhangzhiyu)的博客网站'
     }
   },
   markdown: {
@@ -118,6 +118,21 @@ module.exports = {
       debug: true
     }),
     'fulltext-search', '@vuepress/back-to-top', '@vuepress/last-updated', 'vuepress-plugin-mermaidjs',
+    //SEO优化插件
+    ['sitemap', {
+      hostname: "https://www.zhangzhiyu.live:8900",
+      usrs: ['/vuepress'],
+      // 排除无实际内容的页面
+      exclude: ["/404.html"]
+    }
+    ],
+    ['autometa', {
+      site: {
+        name: 'zhangzhiyu-Blog',
+      },
+      canonical_base: 'https://www.zhangzhiyu.live',
+    }],
+    // 音乐播放器
     ['meting',
       {
         meting: {
