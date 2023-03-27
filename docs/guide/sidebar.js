@@ -33,7 +33,9 @@ module.exports = [
       "./springboot/使用阿里云oss.md",
       "./springboot/java打包exe可执行文件.md",
       "./springboot/使用Swing开发Java GUI程序.md",
-      
+      "./springboot/使用自定义注解和AOP方式限制相同IP接口访问次数.md",
+
+
     ],
   },
   {
@@ -94,6 +96,7 @@ module.exports = [
     children: [
       "./weChat/微信小程序开发资源汇总.md",
       "./weChat/旧版云托管发布指南.md",
+      "./weChat/小程序制作滚动动画的顶部导航栏.md",
     ],
   },
   {
@@ -104,10 +107,10 @@ module.exports = [
   {
     title: "docker",
     collapsable: true,
-    children: ["./docker/docker介绍.md", 
-	"./docker/docker下载和发布镜像及常用命令.md",
-"./docker/Docker Buildx构建多平台镜像.md"
-],
+    children: ["./docker/docker介绍.md",
+      "./docker/docker下载和发布镜像及常用命令.md",
+      "./docker/Docker Buildx构建多平台镜像.md"
+    ],
   },
   {
     title: "python",
@@ -117,7 +120,7 @@ module.exports = [
       "./python/人脸识别配套HTTP服务.md",
       "./python/PostgreSQL版人脸检索.md",
       "./python/人脸识别配套vue界面.md",
-"./python/涉外易班自动打卡.md",
+      "./python/涉外易班自动打卡.md",
     ],
   },
   {
@@ -168,7 +171,7 @@ module.exports = [
       "./plugInUnit/谷歌免费开源图片压缩插件.md",
       "./plugInUnit/支持RESTfulAPI的开源快速搜索引擎.md",
       "./plugInUnit/软著源代码材料生成器.md",
-      
+
     ],
   },
 ];
