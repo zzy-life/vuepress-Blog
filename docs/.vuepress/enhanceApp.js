@@ -6,22 +6,16 @@
  */
 import Router from 'vue-router'
 import { Notification, Button } from 'element-ui';
-import PrimeVue from 'primevue/config';
-import Card from 'primevue/card';
+
 import 'element-ui/lib/theme-chalk/index.css';
-import 'primeflex/primeflex.css';
-import 'primevue/resources/themes/saga-blue/theme.css';
-import 'primevue/resources/primevue.min.css';
-import 'primeicons/primeicons.css';
+
 export default ({
   router,
   Vue
 }) => {
   //按需引入
-  Vue.use(PrimeVue);
   Vue.use(Button);
   Vue.use(router);
-  Vue.component('Card', Card);
   Vue.prototype.$notify = Notification;
 
 

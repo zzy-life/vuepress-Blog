@@ -34,8 +34,6 @@ module.exports = [
       "./springboot/java打包exe可执行文件.md",
       "./springboot/使用Swing开发Java GUI程序.md",
       "./springboot/使用自定义注解和AOP方式限制相同IP接口访问次数.md",
-
-
     ],
   },
   {
@@ -51,22 +49,12 @@ module.exports = [
   {
     title: "JavaScript",
     collapsable: true,
-    children: [
-      "./js/常用函数.md",
-      "./js/map、foreach、reduce区别.md",
-      "./js/常用ECharts图表.md",
-    ],
+    children: ["./js/常用函数.md", "./js/map、foreach、reduce区别.md", "./js/常用ECharts图表.md"],
   },
   {
     title: "树莓派",
     collapsable: true,
-    children: [
-      "./pi4B/树莓派安装ubuntu系统.md",
-      "./pi4B/域名使用DDNS动态解析.md",
-      "./pi4B/树莓派搭建SVN服务器.md",
-      "./pi4B/使用docker启动nacos.md",
-      "./pi4B/使用docker启动mongodb.md",
-    ],
+    children: ["./pi4B/树莓派安装ubuntu系统.md", "./pi4B/域名使用DDNS动态解析.md", "./pi4B/树莓派搭建SVN服务器.md", "./pi4B/使用docker启动nacos.md", "./pi4B/使用docker启动mongodb.md"],
   },
   {
     title: "VuePress",
@@ -93,11 +81,7 @@ module.exports = [
   {
     title: "微信小程序",
     collapsable: true,
-    children: [
-      "./weChat/微信小程序开发资源汇总.md",
-      "./weChat/旧版云托管发布指南.md",
-      "./weChat/小程序制作滚动动画的顶部导航栏.md",
-    ],
+    children: ["./weChat/微信小程序开发资源汇总.md", "./weChat/旧版云托管发布指南.md", "./weChat/小程序制作滚动动画的顶部导航栏.md"],
   },
   {
     title: "npm",
@@ -107,52 +91,32 @@ module.exports = [
   {
     title: "docker",
     collapsable: true,
-    children: ["./docker/docker介绍.md",
-      "./docker/docker下载和发布镜像及常用命令.md",
-      "./docker/Docker Buildx构建多平台镜像.md"
-    ],
+    children: ["./docker/docker介绍.md", "./docker/docker下载和发布镜像及常用命令.md", "./docker/Docker Buildx构建多平台镜像.md"],
   },
   {
     title: "python",
     collapsable: true,
-    children: [
-      "./python/人脸识别.md",
-      "./python/人脸识别配套HTTP服务.md",
-      "./python/PostgreSQL版人脸检索.md",
-      "./python/人脸识别配套vue界面.md",
-      "./python/涉外易班自动打卡.md",
-    ],
+    children: ["./python/人脸识别.md", "./python/人脸识别配套HTTP服务.md", "./python/PostgreSQL版人脸检索.md", "./python/人脸识别配套vue界面.md", "./python/涉外易班自动打卡.md"],
   },
   {
     title: "PostgreSQL",
     collapsable: true,
-    children: [
-      "./PostgreSQL/Ubuntu安装PostgreSQL及常用命令.md",
-      "./PostgreSQL/PostgreSQL构建cube扩展镜像.md",
-    ],
+    children: ["./PostgreSQL/Ubuntu安装PostgreSQL及常用命令.md", "./PostgreSQL/PostgreSQL构建cube扩展镜像.md"],
   },
   {
     title: "centos",
     collapsable: true,
-    children: [
-      "./centos/软件自启动.md",
-    ],
+    children: ["./centos/软件自启动.md"],
   },
   {
     title: "Markdown",
     collapsable: true,
-    children: [
-      "./Markdown/常用语法及图标.md",
-    ],
+    children: ["./Markdown/常用语法及图标.md"],
   },
   {
     title: "github",
     collapsable: true,
-    children: [
-      "./github/第一次参与开源.md",
-      "./github/为你的GitHub个人资料构建出色的自述文件.md",
-
-    ],
+    children: ["./github/第一次参与开源.md", "./github/为你的GitHub个人资料构建出色的自述文件.md"],
   },
   {
     title: "插件集锦",
@@ -171,7 +135,6 @@ module.exports = [
       "./plugInUnit/谷歌免费开源图片压缩插件.md",
       "./plugInUnit/支持RESTfulAPI的开源快速搜索引擎.md",
       "./plugInUnit/软著源代码材料生成器.md",
-
     ],
   },
 ];

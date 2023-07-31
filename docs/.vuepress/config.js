@@ -3,7 +3,7 @@ module.exports = {
   title: "博客", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: "张志宇(zhangzhiyu)的博客网站", // meta 中的描述文字，用于SEO
   dest: "./dist",
-  base: "/vuepress/",
+  base: "/",
   port: "7777",
   lang: "zh-CN",
   // 注入到当前页面的 HTML <head> 中的标签
@@ -130,7 +130,7 @@ module.exports = {
     [
       "sitemap",
       {
-        hostname: "https://www.zhangzhiyu.live:8900",
+        hostname: "https://blog.webarcx.com",
         usrs: ["/vuepress"],
         // 排除无实际内容的页面
         exclude: ["/404.html"],
@@ -142,7 +142,7 @@ module.exports = {
         site: {
           name: "zhangzhiyu-Blog",
         },
-        canonical_base: "https://www.zhangzhiyu.live",
+        canonical_base: "https://blog.webarcx.com",
       },
     ],
   ],
