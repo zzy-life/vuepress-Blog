@@ -1,5 +1,4 @@
 const EncodingPlugin = require('webpack-encoding-plugin');
-const webpack = require('webpack');
 module.exports = {
   title: '博客', // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: '张志宇(zhangzhiyu)的博客网站', // meta 中的描述文字，用于SEO
@@ -114,8 +113,6 @@ module.exports = {
   plugins: [
     new EncodingPlugin({
       encoding: 'UTF-8'
-    }), new webpack.LoaderOptionsPlugin({
-      debug: true
     }),
     'fulltext-search', '@vuepress/back-to-top', '@vuepress/last-updated', 'vuepress-plugin-mermaidjs',
     //SEO优化插件
