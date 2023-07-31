@@ -17,6 +17,7 @@ module.exports = {
     ],
     ["link", { rel: "stylesheet", type: "text/css", href: "https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css" }],
     ["link", { rel: "stylesheet", type: "text/css", href: "/css-js/heti.min.css" }],
+    ["meta", { name: "baidu-site-verification", content: "codeva-ZxscZYe7Ez" }],
   ],
   chainWebpack: (config, isServer) => {
     // Thanks to https://github.com/vuejs/vuepress/issues/969#issuecomment-434193517

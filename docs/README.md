@@ -76,7 +76,6 @@ export default {
     return {
       anim: {
         confettiData: null,
-        starsData: null,
       },
       defaultOptions: {
         confettiData: {
@@ -100,7 +99,11 @@ export default {
     });
    
   },
-
+  methods: {
+    handleAnimation(anim, type) {
+      this.anim[type] = anim;
+    },
+  },
   mounted(){
     this.$nextTick(() => {
     //设置动画速度
