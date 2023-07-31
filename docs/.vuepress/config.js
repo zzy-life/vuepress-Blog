@@ -71,15 +71,6 @@ module.exports = {
   },
 
   serviceWorker: true,
-  locales: {
-    // 键名是该语言所属的子路径
-    // 作为特例，默认语言可以使用 '/' 作为其路径。
-    "/": {
-      lang: "zh-CN", // 将会被设置为 <html> 的 lang 属性
-      title: "博客",
-      description: "张志宇(zhangzhiyu)的博客网站",
-    },
-  },
   markdown: {
     lineNumbers: true,
     extractHeaders: ["h2", "h3", "h4"], //Markdown 文件的 headers (标题 & 小标题) 修改提取出的标题级别

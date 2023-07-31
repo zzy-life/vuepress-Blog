@@ -67,7 +67,7 @@ module.exports = [
         items: [
           {
             text: "个人博客",
-            link: "http://www.zhangzhiyu.live:8900/vuepress",
+            link: "https://blog.webarcx.com",
           },
         ],
       },
