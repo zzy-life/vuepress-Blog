@@ -34,7 +34,7 @@
 
 - Search node_modules: 快速查找项目中的 node_modules 目录。
 
-  ![Search node_modules](image/Search node_modules.gif)
+  ![Search node_modules](image/Searchnode_modules.gif)
 
   
 
@@ -42,7 +42,7 @@
 
 - Auto Rename Tag: 自动重命名 HTML/XML 标签的插件。
 
-  ![GIF 2023-4-20 8-20-50](image/Auto Rename Tag.gif)
+  ![GIF 2023-4-20 8-20-50](image/AutoRenameTag.gif)
 
 - file-jump: 快速跳转到工作区内的文件。
 
@@ -120,8 +120,6 @@
 
 - WXML - Language Service: 为小程序 WXML 提供代码提示和自动补全。
 
-- YAML: 支持 YAML 文件编辑和代码提示。
-
 ## 代码截图
 
 - CodeSnap: 通过代码生成漂亮的图片和 SVG。
@@ -132,7 +130,7 @@
 
 - Image preview: 支持预览多种图片格式。
 
-  ![Image preview](image/Image preview.gif)
+  ![Image preview](image/Imagepreview.gif)
 
 - Jupyter: vscode的python扩展。
 
@@ -152,3 +150,100 @@
 
 - wechat-snippet: 提供微信小程序的代码片段。
 - WXML - Language Service: 为小程序 WXML 提供代码提示和自动补全。
+
+## 插件配置
+
+```json
+{
+    "explorer.confirmDragAndDrop": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "*.js": "javascriptreact",
+        "*.vue": "vue"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html",
+
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+
+    "emmet.triggerExpansionOnTab": true,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+
+    "fileheader.cursorMode": {
+
+        "description": "",
+        "param": "",
+        "return": ""
+    },
+    "fileheader.customMade": {
+        "moveCursor": true, // 移动光标到`Description :`所在行
+        "Author": "git config user.name && git config user.email", // 同时获取用户名与邮箱
+        "Date": "Do not edit", // 文件创建时间(不变)
+        // 文件最后编辑者
+        "LastEditors": "git config user.name && git config user.email", 
+        "LastEditTime": "Do not edit", // 文件最后编辑时间
+      },
+      "fileheader.configObj": {
+        "prohibitAutoAdd": [ "json", "md" ], // 禁止.json .md文件，自动添加头部注释
+        "wideSame": false, // 设置为true开启
+   "wideNum": 13 // 字段长度 默认为13
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "vue": true
+    },
+    "github.copilot.advanced": {
+    },
+    "editor.inlineSuggest.enabled": true,
+    "redhat.telemetry.enabled": true,
+    "auto-rename-tag.activationOnLanguage": [
+
+        "*"
+    ],
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "search.exclude": {
+        "**/dist": true
+    },
+    "vetur.completion.scaffoldSnippetSources": {
+
+
+        "workspace": "💼",
+        "user": "🗒️",
+        "vetur": "✌"
+    },
+   
+  "vetur.format.defaultFormatter.less":"prettier",
+  "vetur.format.defaultFormatter.css":"prettier",
+  "vetur.format.defaultFormatter.scss":"prettier",
+    "codesnap.containerPadding": "0",
+    "codesnap.transparentBackground": true,
+    "typescript.locale": "zh-CN"
+}
+```
+
