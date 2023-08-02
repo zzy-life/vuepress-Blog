@@ -132,7 +132,6 @@ module.exports = {
       "sitemap",
       {
         hostname: "https://blog.webarcx.com",
-        usrs: ["/vuepress"],
         // 排除无实际内容的页面
         exclude: ["/404.html"],
       },
