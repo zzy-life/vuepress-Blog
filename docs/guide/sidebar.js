@@ -63,7 +63,7 @@ module.exports = [
     collapsable: true,
     children: [
       "./vuepress/十分钟使用vuepress搭建博客中心.md",
-      "./vuepress/常见问题.md",
+      "./vuepress/vuepress常见问题.md",
       "./vuepress/集成全文搜索插件.md",
       "./vuepress/密码验证插件.md",
       "./vuepress/音乐插件.md",
@@ -98,7 +98,7 @@ module.exports = [
   {
     title: "python",
     collapsable: true,
-    children: ["./python/人脸识别.md", "./python/人脸识别配套HTTP服务.md", "./python/PostgreSQL版人脸检索.md", "./python/人脸识别配套vue界面.md", "./python/涉外易班自动打卡.md"],
+    children: ["./python/人脸识别.md", "./python/人脸识别配套HTTP服务.md", "./python/PostgreSQL版人脸检索.md", "./python/人脸识别配套vue界面.md"],
   },
   {
     title: "PostgreSQL",
@@ -119,6 +119,11 @@ module.exports = [
     title: "github",
     collapsable: true,
     children: ["./github/第一次参与开源.md", "./github/为你的GitHub个人资料构建出色的自述文件.md"],
+  },
+  {
+    title: "常用技巧",
+    collapsable: true,
+    children: ["./common/使用阿里云企业邮箱搭建免费域名邮箱.md"],
   },
   {
     title: "插件集锦",
