@@ -5,11 +5,19 @@ actionText: 开始
 heroText: zzy-Blog
 tagline: null
 actionLink: /guide/
-footer: GPL Licensed | Copyright © 2021-present You 
+
 lang: zh-CN
 comment: true
 kinesis: true
+
 ---
+
+::: slot footer
+MIT Licensed | Copyright © [网弧](https://www.webarcx.com) 2021-present You  
+:::
+
+
+
 <!-- kinesis首页动画 -->
 
 <!-- <template>
