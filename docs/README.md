@@ -58,22 +58,15 @@ export default {
     lottie: Lottie,
   },
   created() {
-    this.$notify({
-          title: "微信公众号",
-          dangerouslyUseHTMLString: true,
-          message: "<strong> <div>时不待我</div> </strong>",
-          duration: 8000,
-          offset: 50,
-        });
-   
   },
   methods: {
     handleAnimation(anim, type) {
       this.anim[type] = anim;
     },
+   
   },
   mounted(){
-   
+    
   }
  
 };

@@ -31,7 +31,7 @@
 
 <center>
 <code><img height="20" src="./image/javascript.png"></code>
-<code><img   height="20" src="./image/vue.png"></code>
+<code><img height="20" src="./image/vue.png"></code>
 <code><img height="20" src="./image/spring.svg"></code>
 <code><img height="20" src="./image/python.png"></code>
 <code><img height="20" src="./image/mysql.png"></code>
@@ -45,20 +45,20 @@
 
 📊 **我把时间花在:**
 
-[![Top Langs](image/spentmytime.svg)](https://github.com/zzy-life)
 
+[![Top Langs](https://githubstats.chataiweb.me/api/top-langs/?username=zzy-life&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <br />
 
 📈 **我的github统计:**
 
-[![Anurag's GitHub stats](image/githubstats.svg)](https://github.com/zzy-life)
+[![Anurag's GitHub stats](https://githubstats.chataiweb.me/api?username=zzy-life&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
 ### 关于博客
 
-> 博客定位：专注于Web技术、架构设计以及实战案例的技术类原创/转载文章，包括不限于Java和Vue技术
+
 
 ####  博客使用技术
 
@@ -82,31 +82,14 @@
 > 邮件： [![Mail](image/-790002517@qq.svg)](mailto:790002517@qq.com)
 >
 
-> GitHub：[![GitHub](image/-zzylife-07c160.svg)](https://github.com/zzy-life?tab=repositories)
+> GitHub：[![GitHub](image/-zzylife-07c160.svg)](https://github.com/zzy-life)
 >
 
 > 微信公众号：[![Tencent](image/-时不待我-07c160.svg)](weixin://qr/gh_34bd692a9835)
 >
 
-### [项目预览](http://www.zhangzhiyu.live:8900/cardscss)
+### [项目预览](http://www.webarcx.com)
 
-
-
-#### 软著源代码材料生成工具
-
-申请软件著作权登记的时候会被要求提交60页的源代码。没有经验的开发者朋友第一次申请的时候难免会遇到因代码文档格式不正确、代码里含有其他版权信息等原因被要求补正的问题，从而导致拿证时间延误。
-
-现实生活中，申请软著需要源代码申请材料，源代码申请材料有格式 等要求，并且源代码分布在一个项目文件夹中各个文件，复制到一个 word 文档中需要一定时间。
-
-为方便申报软件著作权对前后60页代码的整理，作者制作了一款软件，只需要选择源代码文件夹目录即可生成前后30页代码文件，全量备查代码文件，页眉 页码 格式都弄好了，支持C++、java、C#、python、JavaScript、vue等任何常见格式。
-
- ![img](image/7f17530e0db64335b8cad83d7210d9b1.png) 
-
-> 发布三个月有30000次浏览，7000次下载，1500人因此作品关注公众号
-
-[详情查看](./plugInUnit/软著源代码材料生成器.md)
-
-[点击下载](https://pan.baidu.com/s/10YG3pPlLcq0ANfzYEm5LAQ?pwd=cb7h)
 
 ### 内容来源
 
