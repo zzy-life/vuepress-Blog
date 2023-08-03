@@ -22,82 +22,12 @@ module.exports = [
         text: "项目预览室",
         items: [
           {
-            text: "预览室",
-            link: "http://www.zhangzhiyu.live:8900/cardscss",
+            text: "网弧官网",
+            link: "https://www.webarcx.com/",
           },
         ],
       },
-      {
-        text: "信息职院校友网",
-        items: [
-          {
-            text: "前端",
-            link: "http://www.zhangzhiyu.live:8900/xyw",
-          },
-          {
-            text: "管理系统",
-            link: "http://www.zhangzhiyu.live:8900/xyw/admin",
-          },
-        ],
-      },
-      {
-        text: "微信小程序",
-        items: [
-          {
-            text: "信息职业学院党史学习小程序",
-            link: "/guide/#党史学习小程序",
-          },
-          {
-            text: "青涟环保知识学习小程序",
-            link: "/guide/#青涟环保知识学习小程序",
-          },
-        ],
-      },
-      {
-        text: "人工智能",
-        items: [
-          {
-            text: "人脸识别",
-            link: "/guide/python/PostgreSQL版人脸检索.md",
-          },
-        ],
-      },
-      {
-        text: "博客",
-        items: [
-          {
-            text: "个人博客",
-            link: "https://blog.webarcx.com",
-          },
-        ],
-      },
-      {
-        text: "网盘",
-        items: [
-          {
-            text: "个人网盘",
-            link: "http://www.zhangzhiyu.live:8999",
-          },
-        ],
-      },
-      {
-        text: "3d项目",
-        items: [
-          {
-            text: "THREE",
-            link: "http://www.zhangzhiyu.live:8900/3d/home",
-          },
-        ],
-      },
-      {
-        text: "桌面软件",
-        items: [
-          {
-            text: "软著源代码材料生成工具",
-            link: "/guide/plugInUnit/软著源代码材料生成器.md",
-          },
-        ],
-      },
+     
     ],
   },
   {

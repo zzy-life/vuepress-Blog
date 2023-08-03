@@ -14,6 +14,8 @@ module.exports = [
       "./vue/如何搭建一个Vue脚手架项目.md",
       "./vue/集成百度编辑器.md",
       "./vue/node-sass安装报错.md",
+      "./vue/vue如何自动处理静态资源上传至对象存储.md",
+
     ],
   },
   {
