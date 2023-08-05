@@ -1,5 +1,7 @@
 # 狂神Redis笔记
 
+> 狂神Redis笔记
+
 ## 一、Nosql概述
 
 ### 为什么使用Nosql
@@ -2265,5 +2267,4 @@ sentinel client-reconfig-script mymaster /var/redis/reconfig.sh
 - 数据预热
 
   数据加热的含义就是在正式部署之前，我先把可能的数据先预先访问一遍，这样部分可能大量访问的数据就会加载到缓存中。在即将发生大并发访问前手动触发加载缓存不同的key，设置不同的过期时间，让缓存失效的时间点尽量均匀。
-
 

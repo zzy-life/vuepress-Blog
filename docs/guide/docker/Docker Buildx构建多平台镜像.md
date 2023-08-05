@@ -1,8 +1,10 @@
-# Docker Buildx构建多平台镜像 
+# Docker Buildx构建多平台镜像
 
-> 推荐使用 Ubuntu 系统 
->
-> Centos系统可能有问题
+> 使用Docker Buildx构建多平台镜像
+
+推荐使用 Ubuntu 系统 
+
+Centos系统可能有问题
 
 ## 安装qemu-user-static
 
@@ -40,5 +42,4 @@ docker buildx build -t 镜像仓库地址/镜像名:TAG --platform linux/arm64 .
 ## 常见问题
 
 建议把docker的内存（ memory  ）和交换区提高，否则镜像过大可能构建失败
-
 

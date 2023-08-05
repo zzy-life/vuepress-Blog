@@ -1,7 +1,9 @@
 # 通俗易懂地教你发布自己的npm
 
-> 作为一个全栈JavaScript开发者，如果你还不知道npm是什么东西，那么我只能说你真的**OUT**了。
-> 让我们来一起学习npm吧！[什么是npm？](https://link.jianshu.com/?t=https://www.npmjs.com/)
+> 通俗易懂地教你发布自己的npm
+
+作为一个全栈JavaScript开发者，如果你还不知道npm是什么东西，那么我只能说你真的**OUT**了。
+让我们来一起学习npm吧！[什么是npm？](https://link.jianshu.com/?t=https://www.npmjs.com/)
 
 ## 准备工作
 

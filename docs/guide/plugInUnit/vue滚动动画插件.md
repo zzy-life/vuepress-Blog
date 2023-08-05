@@ -1,5 +1,9 @@
 # vue滚动动画插件
 
+> vue滚动动画插件
+
+
+
 一个 Vue.js 指令，当元素滚动到视图中时对元素应用显示效果。
 
 CSS3 驱动的滚动触发动画需要[Animate.css](https://daneden.github.io/animate.css/)。

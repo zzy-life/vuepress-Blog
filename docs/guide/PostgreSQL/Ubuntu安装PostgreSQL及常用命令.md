@@ -1,8 +1,10 @@
 # Ubuntu安装PostgreSQL及常用命令
 
-> [PostgreSQL](https://www.postgresql.org/) (又名 Postgres) 是一个功能强大的自由开源的关系型数据库管理系统 ([RDBMS](https://www.codecademy.com/articles/what-is-rdbms-sql)) ，其在可靠性、稳定性、性能方面获得了业内极高的声誉。它旨在处理各种规模的任务。它是跨平台的，而且是 [macOS Server](https://www.apple.com/in/macos/server/) 的默认数据库。
->
-> 如果你喜欢简单易用的 SQL 数据库管理器，那么 PostgreSQL 将是一个正确的选择。PostgreSQL 对标准的 SQL 兼容的同时提供了额外的附加特性，同时还可以被用户大量扩展，用户可以添加数据类型、函数并执行更多的操作。
+> Ubuntu安装PostgreSQL及常用命令
+
+[PostgreSQL](https://www.postgresql.org/) (又名 Postgres) 是一个功能强大的自由开源的关系型数据库管理系统 ([RDBMS](https://www.codecademy.com/articles/what-is-rdbms-sql)) ，其在可靠性、稳定性、性能方面获得了业内极高的声誉。它旨在处理各种规模的任务。它是跨平台的，而且是 [macOS Server](https://www.apple.com/in/macos/server/) 的默认数据库。
+
+如果你喜欢简单易用的 SQL 数据库管理器，那么 PostgreSQL 将是一个正确的选择。PostgreSQL 对标准的 SQL 兼容的同时提供了额外的附加特性，同时还可以被用户大量扩展，用户可以添加数据类型、函数并执行更多的操作。
 
 ### 方法一：通过 Ubuntu 存储库安装 PostgreSQL
 

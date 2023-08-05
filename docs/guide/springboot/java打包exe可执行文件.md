@@ -1,10 +1,14 @@
 # java打包exe可执行文件
 
-> jdk版本过高没有jre可以使用命令：
->
-> ```bash
-> jlink.exe --module-path jmods --add-modules java.sql,java.desktop --output jre
-> ```
+> java打包exe可执行文件
+
+
+
+jdk版本过高没有jre可以使用命令：
+
+```bash
+jlink.exe --module-path jmods --add-modules java.sql,java.desktop --output jre
+```
 
 ## 步骤
 

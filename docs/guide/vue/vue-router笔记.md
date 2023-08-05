@@ -4,6 +4,8 @@ title: 单页应用程序与路由
 ::: v-pre
 # 单页应用程序与路由
 
+> 单页应用程序与路由
+
 ## SPA -单页应用程序
 
 - SPA： `Single Page Application`  单页面应用程序

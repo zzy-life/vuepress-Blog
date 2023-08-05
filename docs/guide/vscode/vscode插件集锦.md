@@ -1,6 +1,7 @@
 # vscode插件大全，最完美配置vscode教程
 
-
+> vscode插件大全，最完美配置vscode教程
+>
 
 ## 代码美化
 

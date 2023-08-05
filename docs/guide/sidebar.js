@@ -32,7 +32,6 @@ module.exports = [
       "./springboot/常见配置类.md",
       "./springboot/在SpringBoot上启用HTTPS.md",
       "./springboot/SpringSecurity免密登陆.md",
-      "./springboot/使用阿里云oss.md",
       "./springboot/java打包exe可执行文件.md",
       "./springboot/使用Swing开发Java GUI程序.md",
       "./springboot/使用自定义注解和AOP方式限制相同IP接口访问次数.md",

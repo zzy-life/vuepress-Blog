@@ -1,5 +1,7 @@
 # 尤雨溪谈Vue.js ：缔造自由与真我
 
+> 尤雨溪谈Vue.js ：缔造自由与真我
+
  [原文链接](https://gitee.com/gitee-stars/14 )
 
 ![Yyx](image/yyx.png)

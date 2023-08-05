@@ -1,5 +1,7 @@
 # 树莓派安装Ubuntu系统
 
+> 树莓派安装Ubuntu系统
+
 ## 系统的安装
 
 安装过程十分简单，下载[官方镜像](https://cdimage.ubuntu.com/releases/18.04.5/release/ubuntu-18.04.5-preinstalled-server-arm64+raspi4.img.xz)后，使用[Raspberry Pi Imager](https://downloads.raspberrypi.org/imager/imager_1.4.exe)软件将镜像烧录到SD卡。
@@ -104,5 +106,4 @@ wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo b
 > 作者已制作树莓派4B的Ubuntu18镜像，可直接通过镜像安装
 >
 > 如需要请联系作者
-
 

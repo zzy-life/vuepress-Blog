@@ -1,5 +1,7 @@
 # 使用Swing开发Java GUI程序
 
+> 使用Swing开发Java GUI程序
+
 ## 使用IDEA拖拽开发界面
 
 1. 在项目包中点击Swing UI设计器 输入窗体名称就可以创建成功

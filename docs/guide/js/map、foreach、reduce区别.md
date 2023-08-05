@@ -1,5 +1,9 @@
 #  map、foreach、reduce区别
 
+> map、foreach、reduce区别
+
+
+
 假设我们有一个数组，每个元素是一个人。你面前站了一排人。
 
 foreach 就是你按顺序一个一个跟他们做点什么，具体做什么，随便:

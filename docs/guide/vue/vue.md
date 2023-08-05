@@ -4,6 +4,8 @@ title: Vue基本概念
 ::: v-pre
 # Vue基本概念
 
+> Vue基本概念
+
 ![Vue](./imgs/VUE-logo.png)
 
 ## 课程介绍

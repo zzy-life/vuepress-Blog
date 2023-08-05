@@ -1,6 +1,8 @@
 # form-generator的uniapp解析器
 
-> 用于将form-generator导出的JSON解析成一个表单。
+> form-generator的uniapp解析器
+
+用于将form-generator导出的JSON解析成一个表单。
 
 ## 依赖
 
@@ -758,5 +760,4 @@ if(Array.isArray(this.fieldValue)){//如果是数组，转成字符串型通过�
 源代码作者[Mr.Liang](https://gitee.com/liang1022)
 
 点击[地址](https://gitee.com/liang1022/form-generator-parser/tree/master)跳转
-
 

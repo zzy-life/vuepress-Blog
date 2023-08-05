@@ -4,6 +4,8 @@ title: 如何搭建一个vue脚手架项目
 ::: v-pre
 # 如何搭建一个vue脚手架项目
 
+> 如何搭建一个vue脚手架项目
+
 ## 命令行安装
 
 ### [**一、安装node环境**](https://www.cnblogs.com/yanxulan/p/8978732.html)

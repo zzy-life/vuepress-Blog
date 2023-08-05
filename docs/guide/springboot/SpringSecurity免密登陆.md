@@ -1,12 +1,16 @@
 # SpringSecurity免密登陆
 
-> 自定义认证逻辑需要实现和继承三个类分别是
->
-> SecurityConfigurerAdapter 构造器 用于配置userDetailsService的实现类
->
-> AuthenticationProvider 认证类 定义认证逻辑
->
-> AbstractAuthenticationToken 自定义Token 可以自定义Token中的参数
+> SpringSecurity免密登陆实现
+
+
+
+自定义认证逻辑需要实现和继承三个类分别是
+
+SecurityConfigurerAdapter 构造器 用于配置userDetailsService的实现类
+
+AuthenticationProvider 认证类 定义认证逻辑
+
+AbstractAuthenticationToken 自定义Token 可以自定义Token中的参数
 
 代码实例[详见](https://github.com/chougui123/RuoYi-Vue-SmsLogin)
 

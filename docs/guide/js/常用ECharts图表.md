@@ -1,4 +1,6 @@
-# ECharts常用图表  
+# ECharts常用图表
+
+> ECharts常用图表  
 
 ## 介绍
 
@@ -68,4 +70,3 @@ function method(init的char,option参数,查询条件1,查询条件2,查询条�
 	});
 }
 ```
-    
