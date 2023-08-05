@@ -16,7 +16,7 @@
 
 ## 特点
 
-使用vuepress制作的[个人博客静态站点](http://www.zhangzhiyu.live:8900/vuepress/)
+使用vuepress制作的[个人博客静态站点](https://blog.webarcx.com)
 
 <img src="image/image-20230118234352571.png" alt="image-20230118234352571" style="zoom:50%;" />
 
