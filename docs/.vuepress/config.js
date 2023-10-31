@@ -25,9 +25,10 @@ module.exports = {
       },
     ],
     ["link", { rel: "stylesheet", type: "text/css", href: "https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css" }],
-    ["link", { rel: "stylesheet", type: "text/css", href: "/css-js/heti.min.css" }],
+    ["link", { rel: "stylesheet", type: "text/css", href: "/css-js/heti.min.css" }],    
     ["meta", { name: "baidu-site-verification", content: "codeva-ZxscZYe7Ez" }],
     ["meta", { name: "msvalidate.01", content: "6722A0A06EF8813240FF138FAE55ACC6" }],
+    ["script", { async:true,crossorigin:"anonymous", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5887138614491431" }],
     ["script", { src: "https://webarcx-1305513514.cos.ap-shanghai.myqcloud.com/log.js" }],
   ],
   chainWebpack: (config, isServer) => {
