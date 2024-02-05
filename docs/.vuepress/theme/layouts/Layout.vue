@@ -8,7 +8,8 @@
 <template>
   <ParentLayout>
     <template #sidebar-top>
-      <CarbonAds />
+      <!-- 隐藏侧边导航栏中的橱窗 -->
+      <!-- <CarbonAds /> -->
     </template>
 
   </ParentLayout>
@@ -16,13 +17,13 @@
 
 <script>
 import ParentLayout from '@parent-theme/layouts/Layout.vue'
-import CarbonAds from '@theme/components/CarbonAds.vue'
+// import CarbonAds from '@theme/components/CarbonAds.vue'
 export default {
   name: 'Layout',
 
   components: {
     ParentLayout,
-    CarbonAds,
+    // CarbonAds,
   }
 }
 </script>

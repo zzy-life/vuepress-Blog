@@ -1,7 +1,7 @@
 const EncodingPlugin = require("webpack-encoding-plugin");
 module.exports = {
-  title: "博客", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
-  description: "张志宇(zhangzhiyu)的博客网站", // meta 中的描述文字，用于SEO
+  title: "时不待我", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
+  description: "张志宇(zhangzhiyu)的个人网站", // meta 中的描述文字，用于SEO
   dest: "./dist",
   base: "/",
   port: "7777",
@@ -11,8 +11,8 @@ module.exports = {
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     "/": {
       lang: "zh-CN", // 将会被设置为 <html> 的 lang 属性
-      title: "博客",
-      description: "张志宇(zhangzhiyu)的博客网站",
+      title: "时不待我",
+      description: "张志宇(zhangzhiyu)的个人网站",
     },
   },
   // 注入到当前页面的 HTML <head> 中的标签
