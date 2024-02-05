@@ -3,6 +3,11 @@ home: true
 heroImage: /img/logo.png
 actionText: 开始
 heroText: zzy-Blog
+meta:
+  - name: description
+    content: 张志宇(zhangzhiyu)的个人网站
+  - name: keywords
+    content: 时不待我,张志宇,zhangzhiyu,webrarcx.com
 tagline: null
 actionLink: /guide/
 lang: zh-CN
