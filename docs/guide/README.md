@@ -46,13 +46,13 @@
 📊 **我把时间花在:**
 
 
-[![Top Langs](https://githubstats.chataiweb.me/api/top-langs/?username=zzy-life&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://vercel.webarcx.com/api/top-langs/?username=zzy-life&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <br />
 
 📈 **我的github统计:**
 
-[![Anurag's GitHub stats](https://githubstats.chataiweb.me/api?username=zzy-life&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://vercel.webarcx.com/api?username=zzy-life&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
