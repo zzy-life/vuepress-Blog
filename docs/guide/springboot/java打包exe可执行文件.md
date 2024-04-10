@@ -2,8 +2,6 @@
 
 本文介绍了如何将Java应用程序转换为EXE可执行文件的步骤和技巧，使您的Java项目能够在没有安装Java环境的Windows系统上运行。通过详细的教程，通过这些工具优化您的应用打包流程，确保软件的高效发布和部署。无论您是Java新手还是经验丰富的开发者，本文都能为您提供宝贵的指导和技巧，帮助您顺利完成Java项目到EXE文件的转换。
 
-> java打包exe可执行文件
-
 
 
 jdk版本过高没有jre可以使用命令：
@@ -18,7 +16,7 @@ jlink.exe --module-path jmods --add-modules java.sql,java.desktop --output jre
 
 将自己的程序打包成jar包，java -jar jar包 没有问题之后，将cmd窗口关闭进行后续操作
 
-### 下载安装exe4j和inno setup complier
+### 下载安装exe4j
 
  **exe4j**：将jar转换成exe的工具
 
@@ -38,13 +36,6 @@ A-XVK209982F-1y0i3h4ywx2h1
 A-XVK267351F-dpurrhnyarva
 ```
 
-**inno setup**：将jre和exe打包成一个安装程序的工具，
-
-链接: https://pan.baidu.com/s/1DByTUoOBmo8h-n_A2s6jCw
-
-提取码: 9hzj
-
-这两个工具自己安装之后进行使用：
 
 ### exe4j
 
