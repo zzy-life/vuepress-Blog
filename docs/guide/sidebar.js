@@ -33,6 +33,7 @@ module.exports = [
       "./springboot/在SpringBoot上启用HTTPS.md",
       "./springboot/SpringSecurity免密登陆.md",
       "./springboot/java打包exe可执行文件.md",
+      "./springboot/java语言将jar打包苹果可执行文件.md",
       "./springboot/使用Swing开发Java GUI程序.md",
       "./springboot/使用自定义注解和AOP方式限制相同IP接口访问次数.md",
     ],
