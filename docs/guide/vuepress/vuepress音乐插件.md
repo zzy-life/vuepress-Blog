@@ -1,4 +1,4 @@
-# 音乐插件
+# vuepress音乐插件
 
 > vuepress音乐插件
 

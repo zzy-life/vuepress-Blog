@@ -1,4 +1,4 @@
-# 常见配置类
+# springboot常见配置类
 
 > springboot 常见配置类
 

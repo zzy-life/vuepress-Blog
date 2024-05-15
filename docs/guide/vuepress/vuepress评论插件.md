@@ -1,4 +1,4 @@
-# 评论插件
+# vuepress评论插件
 
 > vuepress 评论插件
 
