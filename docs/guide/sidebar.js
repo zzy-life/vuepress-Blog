@@ -18,6 +18,14 @@ module.exports = [
 
     ],
   },
+ {
+    title: "uniapp",
+    collapsable: true,
+    children: [
+      "./uniapp/uniapp怎么上传附件.md"
+
+    ],
+  },
   {
     title: "SpringBoot",
     collapsable: true,
