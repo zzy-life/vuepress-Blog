@@ -1,11 +1,6 @@
 # Nginx代理配置
 
 
-
-> Nginx代理配置
-
-
-
 ## vue代理
 
 ```nginx
