@@ -21,6 +21,7 @@ module.exports = [
         title: "uniapp",
         collapsable: true,
         children: [
+            "./uniapp/uniapp踩坑记录.md",
             "./uniapp/uniapp怎么上传附件.md",
             "./uniapp/uniapp权限弹窗提示.md",
             "./uniapp/uniapp升级怎么整包更新或者wgt热更新.md",
