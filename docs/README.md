@@ -5,7 +5,7 @@ actionText: 开始
 heroText: zzy-Blog
 meta:
   - name: description
-    content: 张志宇(zhangzhiyu)的个人网站
+    content: 张志宇(zhangzhiyu)的博客网站
   - name: keywords
     content: 时不待我,张志宇,zhangzhiyu,webrarcx.com
 tagline: null
@@ -16,7 +16,7 @@ kinesis: true
 ---
 
 ::: slot footer
-MIT Licensed | Copyright © [网弧](https://www.webarcx.com) 2021-present You  
+MIT Licensed | Copyright © [网络弧线](https://www.webarcx.com) 2021-present You  
 :::
 
 
