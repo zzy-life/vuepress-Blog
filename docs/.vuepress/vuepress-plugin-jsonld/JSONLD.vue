@@ -14,7 +14,6 @@ export default {
             "image": [
               "https://www.webarcx.com/HomePage/favicon.ico"
               ],
-            "datePublished": "${this.$page.frontmatter.date && (new Date(this.$page.frontmatter.date)).toISOString()}",
             "dateModified": "${this.$page.lastUpdated && (new Date(this.$page.lastUpdated)).toISOString()}",
             "author": [{
                 "@type": "Person",
