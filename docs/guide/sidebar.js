@@ -18,6 +18,13 @@ module.exports = [
         ],
     },
     {
+        title: "React",
+        collapsable: true,
+        children: [
+            "./react/ant组件开发常见问题.md", //指向md文档
+        ],
+    },
+    {
         title: "uniapp",
         collapsable: true,
         children: [
