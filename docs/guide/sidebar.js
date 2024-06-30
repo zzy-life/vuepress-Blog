@@ -56,6 +56,11 @@ module.exports = [
         children: ["./svn/svn常见命令.md"],
     },
     {
+        title: "路由器",
+        collapsable: true,
+        children: ["./router/华硕路由器搭建科学上网.md"],
+    },
+    {
         title: "Nginx",
         collapsable: true,
         children: ["./nginx/nginx代理配置.md", "./nginx/nginx安装证书.md"],
