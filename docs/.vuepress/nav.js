@@ -23,6 +23,10 @@ module.exports = [
         items: [
           {
             text: "网弧官网",
+            link: "https://www.webedc.com/",
+          },
+          {
+            text: "软件著作权生成方案",
             link: "https://www.webarcx.com/",
           },
         ],

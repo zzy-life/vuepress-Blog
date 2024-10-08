@@ -145,6 +145,11 @@ module.exports = [
         children: ["./common/使用阿里云企业邮箱搭建免费域名邮箱.md"],
     },
     {
+        title: "OpenAi",
+        collapsable: true,
+        children: ["./OpenAi/如何打造自己的ChatGPT，AzureAPI转换OpenAI.md"],
+    },
+    {
         title: "插件集锦",
         collapsable: true,
         children: [

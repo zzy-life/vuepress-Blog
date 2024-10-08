@@ -16,7 +16,7 @@ kinesis: true
 ---
 
 ::: slot footer
-MIT Licensed | Copyright © [网络弧线](https://www.webarcx.com) 2021-present You  
+MIT Licensed | Copyright © [网络弧线](https://www.webedc.com) 2021-present You  
 :::
 
 

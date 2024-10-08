@@ -85,10 +85,10 @@
 > GitHub：[![GitHub](image/-zzylife-07c160.svg)](https://github.com/zzy-life)
 >
 
-> 微信公众号：[![Tencent](image/-时不待我-07c160.svg)](weixin://qr/gh_34bd692a9835)
+> 微信公众号： [网络弧线]( weixin://qr/gh_34bd692a9835 )
 >
 
-### [项目预览](http://www.webarcx.com)
+### 
 
 
 ### 内容来源
