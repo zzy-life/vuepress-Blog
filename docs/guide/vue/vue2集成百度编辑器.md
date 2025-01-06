@@ -309,3 +309,63 @@ VUE_APP_UEDITOR_SERVER_URL = '/dev-api/ueditor'
 
 
 
+### 百度编辑器粘贴过滤特定样式
+
+运营想粘贴后统一使用微软雅黑字体，16px字体大小，过滤z-index样式
+
+
+
+找到ueditor.all.js的9967行左右defaultfilter方法
+
+```javascript
+case 'p':
+                        if (val = node.getAttr('align')) {
+                            node.setAttr('align');
+                            node.setStyle('text-align', val)
+                        }
+                        //trace:3431
+                        //style过滤
+                       var cssStyle = node.getAttr('style');
+                       if (cssStyle) {
+                            //    cssStyle = cssStyle.replace(/(margin|padding)[^;]+/g, '');
+                            // 删除z-index样式
+                            cssStyle = cssStyle.replace(/z-index:[^;]+;/g, '');
+
+                            // 检查并替换或设置 font-family
+                            if (cssStyle.match(/font-family:[^;]+/)) {
+                                cssStyle = cssStyle.replace(/font-family:[^;]+;/, "font-family: '微软雅黑', 'Microsoft YaHei', sans-serif;");
+                            } else {
+                                cssStyle += "font-family: '微软雅黑', 'Microsoft YaHei', sans-serif;";
+                            }
+
+                            // 检查并替换或设置 font-size
+                            if (cssStyle.match(/font-size:[^;]+/)) {
+                                cssStyle = cssStyle.replace(/font-size:[^;]+;/, "font-size: 16px;");
+                            } else {
+                                cssStyle += "font-size: 16px;";
+                            }
+
+                           node.setAttr('style', cssStyle)
+
+                       }
+                        //p标签不允许嵌套
+                        utils.each(node.children,function(n){
+                            if(n.type == 'element' && n.tagName == 'p'){
+                                var next = n.nextSibling();
+                                node.parentNode.insertAfter(n,node);
+                                var last = n;
+                                while(next){
+                                    var tmp = next.nextSibling();
+                                    node.parentNode.insertAfter(next,last);
+                                    last = next;
+                                    next = tmp;
+                                }
+                                return false;
+                            }
+                        });
+                        if (!node.firstChild()) {
+                            node.innerHTML(browser.ie ? '&nbsp;' : '<br/>')
+                        }
+                        break;
+```
+
