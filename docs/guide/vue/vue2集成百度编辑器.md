@@ -319,53 +319,74 @@ VUE_APP_UEDITOR_SERVER_URL = '/dev-api/ueditor'
 
 ```javascript
 case 'p':
-                        if (val = node.getAttr('align')) {
-                            node.setAttr('align');
-                            node.setStyle('text-align', val)
-                        }
-                        //trace:3431
-                        //style过滤
-                       var cssStyle = node.getAttr('style');
-                       if (cssStyle) {
-                            //    cssStyle = cssStyle.replace(/(margin|padding)[^;]+/g, '');
-                            // 删除z-index样式
-                            cssStyle = cssStyle.replace(/z-index:[^;]+;/g, '');
+    if (val = node.getAttr('align')) {
+        node.setAttr('align');
+        node.setStyle('text-align', val)
+    }
+    //trace:3431
+    //style过滤
+    var cssStyle = node.getAttr('style');
+    if (cssStyle) {
+        //    cssStyle = cssStyle.replace(/(margin|padding)[^;]+/g, '');
+        // 删除z-index样式
+        cssStyle = cssStyle.replace(/z-index:[^;]+;/g, '');
 
-                            // 检查并替换或设置 font-family
-                            if (cssStyle.match(/font-family:[^;]+/)) {
-                                cssStyle = cssStyle.replace(/font-family:[^;]+;/, "font-family: '微软雅黑', 'Microsoft YaHei', sans-serif;");
-                            } else {
-                                cssStyle += "font-family: '微软雅黑', 'Microsoft YaHei', sans-serif;";
-                            }
+        // 检查并替换或设置 font-family
+        if (cssStyle.match(/font-family:[^;]+/)) {
+            cssStyle = cssStyle.replace(/font-family:[^;]+;/, "font-family: '微软雅黑', 'Microsoft YaHei', sans-serif;");
+        } else {
+            cssStyle += "font-family: '微软雅黑', 'Microsoft YaHei', sans-serif;";
+        }
 
-                            // 检查并替换或设置 font-size
-                            if (cssStyle.match(/font-size:[^;]+/)) {
-                                cssStyle = cssStyle.replace(/font-size:[^;]+;/, "font-size: 16px;");
-                            } else {
-                                cssStyle += "font-size: 16px;";
-                            }
+        // 检查并替换或设置 font-size
+        if (cssStyle.match(/font-size:[^;]+/)) {
+            cssStyle = cssStyle.replace(/font-size:[^;]+;/, "font-size: 16px;");
+        } else {
+            cssStyle += "font-size: 16px;";
+        }
 
-                           node.setAttr('style', cssStyle)
+        node.setAttr('style', cssStyle)
 
-                       }
-                        //p标签不允许嵌套
-                        utils.each(node.children,function(n){
-                            if(n.type == 'element' && n.tagName == 'p'){
-                                var next = n.nextSibling();
-                                node.parentNode.insertAfter(n,node);
-                                var last = n;
-                                while(next){
-                                    var tmp = next.nextSibling();
-                                    node.parentNode.insertAfter(next,last);
-                                    last = next;
-                                    next = tmp;
-                                }
-                                return false;
-                            }
-                        });
-                        if (!node.firstChild()) {
-                            node.innerHTML(browser.ie ? '&nbsp;' : '<br/>')
-                        }
-                        break;
+    }
+    //p标签不允许嵌套
+    utils.each(node.children,function(n){
+        if(n.type == 'element' && n.tagName == 'p'){
+            var next = n.nextSibling();
+            node.parentNode.insertAfter(n,node);
+            var last = n;
+            while(next){
+                var tmp = next.nextSibling();
+                node.parentNode.insertAfter(next,last);
+                last = next;
+                next = tmp;
+            }
+            return false;
+        }
+    });
+    if (!node.firstChild()) {
+        node.innerHTML(browser.ie ? '&nbsp;' : '<br/>')
+    }
+    break;
+```
+
+### 百度编辑器图片上传增加加载中提示
+
+搜索function doAjax方法，在方法内第一行增加
+
+```javascript
+var msgIndex;
+if (window.layer && url.includes('?action=catchimage')) {
+    msgIndex = layer.msg('图片上传中...', {icon: 16, time: 0, shade: 0.01});  // 在页面显示加载中提示
+}
+```
+
+
+
+ajaxOpts.onsuccess方法后面增加
+
+```javascript
+if (window.layer) {
+    layer.close(msgIndex)
+}
 ```
 
