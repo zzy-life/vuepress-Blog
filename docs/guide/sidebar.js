@@ -150,6 +150,11 @@ module.exports = [
         children: ["./OpenAi/如何打造自己的ChatGPT，AzureAPI转换OpenAI.md"],
     },
     {
+        title: "LangGraph",
+        collapsable: true,
+        children: ["./LangGraph/LangGraph学习笔记.md"],
+    },
+    {
         title: "插件集锦",
         collapsable: true,
         children: [
