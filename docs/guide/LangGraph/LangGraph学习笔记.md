@@ -8,7 +8,7 @@
 
 ## 名词解释
 
-### 边（edges） 
+### 简单边（edges） 
 
  就像指路牌，告诉程序下一步该去哪里 
 
@@ -39,6 +39,7 @@ pythonCopydef route_tools(state: State):
         ai_message = messages[-1]
     else:
         raise ValueError(f"No messages found in input state to tool_edge: {state}")
+        
     if hasattr(ai_message, "tool_calls") and len(ai_message.tool_calls) > 0:
         return "tools"
     return END
@@ -154,6 +155,30 @@ graph.add_edge(START, "node_a")  # 从START开始，先执行node_a
 
 ```python
 graph.add_edge("node_a", END)  # node_a执行完就结束
+```
+
+
+
+### 状态（State）
+
+状态是可以在整个图中的节点之间传递的信息。如果想在工作流中跟踪特定信息，那么可以使用状态。
+
+您可以在 langgraph 中制作两种类型的图表：
+
+- **基本图：**基本图只会将第一个节点的输出传递给下一个节点，因为它不能包含状态。
+- **状态图：**此图可以包含在节点之间传递的状态，你可以在任何节点访问此状态
+
+
+
+以下是定义状态并将其传递给状态图的方法：
+
+```python
+from typing import TypedDict
+from langgraph.graph import StateGraph
+class AgentState(TypedDict):
+    messages: list[str]
+
+workflow = StateGraph(AgentState)
 ```
 
 
